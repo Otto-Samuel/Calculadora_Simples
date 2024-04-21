@@ -1,0 +1,46 @@
+*{
+    margin: 0;/*A propriedade padding define uma a distância 
+                entre o conteúdo de um elemento e suas bordas*/
+    padding: 0; 
+    /*padding-bottom: indica a distância na parte inferior do conteúdo; padding-left: representa a distância no lado esquerdo do box;
+    padding-right: indica a distância aplicada no lado direito do elemento; padding-top: indica qual o espaçamento superior no elemento*/
+}
+.fundo{
+    background-image: linear-gradient(45deg,black, crimson);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif, 'Arial Narrow', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculadora{
+    position: absolute;  /*ocupa o espaço dela mesma */
+    background-color: rgba(0, 0, 0, 0.7);        /*cor de fundo*/
+    top: 47%; /*distanciar do topo*/
+    left: 50%;  /*distanciar para o lado*/
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px; /*é usada para indicar o tamanho da letra(fonte) em CSS*/
+    cursor: pointer;
+    margin: 2px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 8px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
